@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDS Segurança </title>
+    <style>
+        :root { --jds-blue: #1b2a4e; --jds-red: #d32f2f; --white: #ffffff; --bg: #f4f7f6; --green: #25d366; }
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg); margin: 0; padding: 15px; }
+        .container { max-width: 1200px; margin: auto; }
+        header { background: var(--white); padding: 25px; border-radius: 15px; text-align: center; border-bottom: 6px solid var(--jds-blue); box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 25px; }
+        header img { max-width: 130px; margin-bottom: 10px; }
+        header h1 { color: var(--jds-blue); margin: 5px 0; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; }
+        header p { color: var(--jds-red); font-weight: bold; margin: 0; font-size: 14px; }
+        h2 { color: var(--white); background: var(--jds-blue); padding: 15px; border-radius: 8px; margin-top: 40px; font-size: 1.1em; text-transform: uppercase; border-left: 10px solid var(--jds-red); display: flex; align-items: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px; margin-top: 15px; }
+        .card { background: var(--white); padding: 20px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #ddd; transition: 0.3s; }
+        .card:hover { border-color: var(--jds-red); transform: translateY(-3px); box-shadow: 0 6px 15px rgba(0,0,0,0.1); }
+        .info { flex: 1; padding-right: 15px; }
+        .info strong { display: block; color: var(--jds-blue); font-size: 1.1em; margin-bottom: 4px; }
+        .info span { color: #777; font-size: 0.85em; font-weight: 600; display: block; }
+        .btn-send { background-color: var(--green); color: white; text-decoration: none; padding: 12px 20px; border-radius: 8px; font-weight: bold; font-size: 0.85em; text-align: center; transition: 0.3s; box-shadow: 0 3px 6px rgba(37, 211, 102, 0.2); }
+        .btn-send:hover { background-color: #128c7e; transform: scale(1.05); }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 18px; }
+            .card { padding: 15px; }
+            .info strong { font-size: 1em; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="logo.jpg" alt="JDS Logo">
+        <h1>JDS Sistemas de Segurança</h1>
+        <p>PROSPECÇÃO ESTRATÉGICA 2026</p>
+    </header>
+
+    <h2>🏭 Setor Industrial e Logístico</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Refinaria Abreu e Lima</strong><span>(81) 3487-4233</span></div><a href="https://wa.me/558134874233?text=Olá!%20Represento%20a%20JDS%20Segurança.%20Desenvolvemos%20projetos%20de%20inteligência%20perimetral%20e%20monitoramento%20técnico%20robusto%20para%20unidades%20industriais.%20Podemos%20apresentar%20nossas%20soluções%20em%20segurança%20eletrônica%20industrial?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Alpek Polyester</strong><span>(81) 3311-4500</span></div><a href="https://wa.me/558133114500?text=Olá!%20A%20JDS%20Segurança%20é%20especialista%20em%20manutenção%20de%20sistemas%20críticos%20CCTV%20e%20controle%20de%20acesso%20em%20Suape.%20Gostaríamos%20de%20oferecer%20uma%20visita%20técnica%20para%20avaliar%20a%20infraestrutura%20da%20Alpek." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Cimento Forte</strong><span>(81) 99635-8232</span></div><a href="https://wa.me/5581996358232?text=Olá!%20Temos%20projetos%20de%20proteção%20perimetral%20por%20vídeo-análise%20que%20reduzem%20custos%20com%20vigilância%20presencial.%20Podemos%20conversar%20sobre%20como%20aplicar%20isso%20na%20Cimento%20Forte?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Condomínio Armazenna</strong><span>(81) 99638-0058</span></div><a href="https://wa.me/5581996380058?text=Olá!%20Somos%20da%20JDS%20Segurança.%20Especialistas%20em%20centros%20logísticos%20em%20Suape.%20Oferecemos%20monitoramento%2024h%20e%20controle%20de%20docas%20via%20software.%20Podemos%20agendar%20uma%20apresentação?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Cristalpet do Brasil</strong><span>(81) 99161-8837</span></div><a href="https://wa.me/5581991618837?text=Olá!%20A%20JDS%20Segurança%20Eletrônica%20entrega%20soluções%20sob%20medida%20para%20plantas%20industriais.%20Focamos%20em%20prevenção%20de%20riscos%20e%20segurança%20patrimonial%20de%20alto%20padrão.%20Gostaria%20de%20conhecer?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Paletiza</strong><span>(62) 99864-0241</span></div><a href="https://wa.me/5562998640241?text=Olá!%20Sua%20operação%20logística%20exige%20monitoramento%20impecável.%20A%20JDS%20Segurança%20oferece%20integração%20de%20câmeras%20IA%20e%20alarmes%20técnicos.%20Podemos%20apresentar%20nossa%20proposta?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Embraloc</strong><span>(81) 99151-9151</span></div><a href="https://wa.me/5581991519151?text=Olá!%20Atuamos%20na%20segurança%20de%20pátios%20de%20locação%20e%20logística.%20Garantimos%20zero%20pontos%20cegos%20com%20nossas%20soluções%20de%20vídeo-monitoramento.%20Vamos%20proteger%20a%20Embraloc?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Tecon Suape</strong><span>(81) 3527-5200</span></div><a href="https://wa.me/558135275200?text=Olá!%20Oferecemos%20tecnologia%20de%20última%20geração%20para%20terminais%20portuários%2C%20incluindo%20reconhecimento%20de%20placas%20(LPR)%20e%20segurança%20perimetral.%20Podemos%20enviar%20nosso%20folder?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Bunge Moinho Suape</strong><span>(81) 3527-8900</span></div><a href="https://wa.me/558135278900?text=Olá!%20Especializados%20em%20segurança%20eletrônica%20para%20indústrias%20do%20setor%20alimentício.%20Garantimos%20rigor%20no%20controle%20de%20acesso%20e%20vigilância%20ininterrupta.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Ecoroda Suape</strong><span>(81) 99842-6923</span></div><a href="https://wa.me/5581998426923?text=Olá!%20A%20JDS%20Segurança%20possui%20soluções%20de%20monitoramento%20para%20operações%20logísticas%20complexas.%20Protegemos%20seus%20ativos%20com%20tecnologia%20preventiva.%20Gostaria%20de%20um%20orçamento?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Suape Ambiental</strong><span>(81) 3527-5068</span></div><a href="https://wa.me/558135275068?text=Olá!%20Oferecemos%20vigilância%20técnica%20para%20áreas%20ambientais%20e%20resíduos.%20Controle%20total%20de%20acessos%20e%20monitoramento%20remoto.%20Podemos%20falar%20sobre%20segurança?" class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <h2>🏨 Hotelaria e Litoral (Pousadas e Resorts)</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Serrambi Resort</strong><span>(82) 99983-9364</span></div><a href="https://wa.me/5582999839364?text=Olá!%20A%20JDS%20Segurança%20é%20líder%20em%20segurança%20para%20complexos%20turísticos.%20Protegemos%20seus%20hóspedes%20com%20CCTV%20inteligente%20e%20discreto.%20Podemos%20apresentar%20nossos%20diferenciais?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Privê Pontal</strong><span>(81) 98267-0200</span></div><a href="https://wa.me/5581982670200?text=Olá!%20Segurança%20é%20um%20fator%20decisivo%20para%20hóspedes.%20A%20JDS%20oferece%20monitoramento%20e%20fechaduras%20digitais%20em%20Maracaípe.%20Gostaria%20de%20elevar%20o%20padrão%20da%20sua%20Pousada?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Vivenda dos Corais</strong><span>(81) 99601-7481</span></div><a href="https://wa.me/5581996017481?text=Olá!%20Trabalhamos%20com%20projetos%20de%20segurança%20eletrônica%20que%20não%20interferem%20na%20estética%20da%20sua%20pousada.%20Podemos%20apresentar%20nossas%20câmeras%20de%20última%20geração?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Atlantic</strong><span>(81) 99476-0013</span></div><a href="https://wa.me/5581994760013?text=Olá!%20Especializados%20em%20pousadas%20de%20luxo%2C%20a%20JDS%20entrega%20segurança%20integrada%20e%20controle%20de%20fluxo%20eficiente.%20Podemos%20agendar%20uma%20conversa?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Viva Muro Alto Flats</strong><span>(81) 99681-1827</span></div><a href="https://wa.me/5581996811827?text=Olá!%20Implementamos%20controle%20de%20acesso%20facial%20e%20portaria%20remota%20para%20condomínios%20de%20flat.%20Quer%20reduzir%20custos%20e%20aumentar%20a%20segurança?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Marulhos Resort (Flat)</strong><span>(81) 98958-5451</span></div><a href="https://wa.me/5581989585451?text=Olá!%20Atuamos%20com%20infraestrutura%20completa%20de%20segurança%20para%20grandes%20flats.%20Monitoramento%20preventivo%20e%20automação.%20Gostaria%20de%20conhecer%20nossos%20serviços?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada das Galinhas</strong><span>(81) 3079-8323</span></div><a href="https://wa.me/558130798323?text=Olá!%20Garanta%20a%20paz%20do%20seu%20hóspede%20com%20as%20soluções%20da%20JDS%20Segurança.%20CCTV%2024h%20acessível%20pelo%20celular.%20Podemos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Vila do Porto</strong><span>(81) 3552-1648</span></div><a href="https://wa.me/558135521648?text=Olá!%20Sua%20pousada%20merece%20segurança%20de%20ponta.%20Trabalhamos%20com%20sistemas%20resistentes%20à%20maresia%20e%20inteligência%20de%20vídeo.%20Podemos%20fazer%20um%20projeto?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Canto do Porto</strong><span>(81) 3552-2165</span></div><a href="https://wa.me/558135522165?text=Olá!%20Oferecemos%20segurança%20perimetral%20discreta%20e%20eficaz.%20A%20JDS%20é%20referência%20no%20litoral%20em%20monitoramento%20de%20hospedagens.%20Vamos%20agendar%20uma%20visita?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Flor de Porto</strong><span>(81) 97330-7299</span></div><a href="https://wa.me/5581973307299?text=Olá!%20Proteja%20seu%20negócio%20em%20Porto%20de%20Galinhas.%20Instalação%20e%20manutenção%20rápida%20de%20câmeras%20e%20alarmes.%20Tem%20interesse%20em%20um%20upgrade%20na%20segurança?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Porto de Galinhas</strong><span>(81) 9165-4082</span></div><a href="https://wa.me/5581991654082?text=Olá!%20Somos%20a%20JDS%20Segurança.%20Temos%20pacotes%20especiais%20de%20monitoramento%20integrado%20para%20pousadas%20na%20vila.%20Gostaria%20de%20conhecer?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Recanto do Amanhecer</strong><span>(81) 99614-6498</span></div><a href="https://wa.me/5581996146498?text=Olá!%20Segurança%20eletrônica%20com%20o%20melhor%20custo-benefício%20da%20região.%20Proteção%2024h%20para%20seu%20patrimônio%20e%20clientes.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Hotel Village Porto de Galinhas</strong><span>(81) 3552-4200</span></div><a href="https://wa.me/558135524200?text=Olá!%20A%20JDS%20Segurança%20atende%20grandes%20estruturas%20hoteleiras.%20Oferecemos%20centralização%20de%20vídeo%20e%20controle%20de%20áreas%20comuns.%20Podemos%20enviar%20uma%20proposta?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Pousada Casa Rao</strong><span>(81) 98198-6740</span></div><a href="https://wa.me/5581981986740?text=Olá!%20Garanta%20a%20segurança%20da%20sua%20pousada%20com%20tecnologia%20de%20fácil%20manuseio%20e%20alta%20resolução.%20Gostaria%20de%20um%20orçamento%20personalizado?" class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <h2>🛍️ Lojas e Comércio Geral</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Shineray Ipojuca</strong><span>(81) 99245-9495</span></div><a href="https://wa.me/5581992459495?text=Olá!%20Oferecemos%20segurança%20inteligente%20para%20showrooms%20e%20estoques.%20Câmeras%20com%20alerta%20noturno%20direto%20no%20celular.%20Podemos%20proteger%20a%20Shineray?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Loja Mundo Praia</strong><span>(81) 99455-1724</span></div><a href="https://wa.me/5581994551724?text=Olá!%20Evite%20perdas%20no%20seu%20comércio%20com%20as%20câmeras%20de%20alta%20precisão%20da%20JDS.%20Instalação%20imediata%20em%20N.%20Sra.%20do%20Ó.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Jc Malhas e Tecidos</strong><span>(81) 99636-5396</span></div><a href="https://wa.me/5581996365396?text=Olá!%20Proteja%20seu%20estoque%20de%20tecidos%20com%20alarmes%20de%20presença%20e%20monitoramento%20em%20tempo%20real.%20A%20JDS%20tem%20o%20plano%20certo%20para%20seu%20negócio." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Espaço dos Bombons</strong><span>(81) 98248-8657</span></div><a href="https://wa.me/5581982488657?text=Olá!%20Soluções%20acessíveis%20para%20proteger%20sua%20loja%20dia%20e%20noite.%20Tranquilidade%20para%20você%20e%20segurança%20para%20seu%20caixa.%20Podemos%20apresentar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Lála Shopping</strong><span>(81) 98172-2775</span></div><a href="https://wa.me/5581981722775?text=Olá!%20Somos%20da%20JDS%20Segurança.%20Oferecemos%20monitoramento%20estratégico%20para%20áreas%20comerciais%20de%20alto%20fluxo.%20Vamos%20reforçar%20a%20segurança%20do%20Shopping?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Coco Potiguar</strong><span>(81) 99996-2263</span></div><a href="https://wa.me/5581999962263?text=Olá!%20A%20JDS%20está%20com%20projetos%20especiais%20para%20pontos%20de%20venda%20em%20Porto.%20Segurança%20rápida%20e%20eficiente%20com%20visualização%20mobile.%20Conheça!" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Supermercado Soberano</strong><span>(81) 99454-5090</span></div><a href="https://wa.me/5581994545090?text=Olá!%20Especialistas%20em%20prevenção%20de%20perdas.%20Reduza%20furtos%20e%20monitore%20seus%20caixas%20com%20nossa%20tecnologia%20de%20ponta.%20Podemos%20enviar%20um%20consultor?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Loja Ximenes Imóveis</strong><span>(81) 3552-1922</span></div><a href="https://wa.me/558135521922?text=Olá!%20Protegemos%20sua%20imobiliária%20e%20os%20imóveis%20vagos%20sob%20sua%20gestão.%20Sistemas%20temporários%20e%20fixos%20de%20vigilância.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Loja Atacadão Ipojuca</strong><span>(81) 99123-4567</span></div><a href="https://wa.me/5581991234567?text=Olá!%20Desenvolvemos%20sistemas%20de%20CFTV%20em%20larga%20escala%20para%20atacadistas.%20Controle%20de%20pátio%20e%20prevenção%20de%20perdas.%20Podemos%20apresentar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Farmácia Pague Menos</strong><span>(81) 99876-5432</span></div><a href="https://wa.me/5581998765432?text=Olá!%20Segurança%2024h%20para%20farmácias%20com%20botão%20de%20pânico%20e%20monitoramento%20de%20estoque%20sensível.%20Gostaria%20de%20uma%20análise%20de%20vulnerabilidade?" class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <h2>🧭 Turismo e Receptivos</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Ultra Receptivo</strong><span>(81) 99791-1461</span></div><a href="https://wa.me/5581997911461?text=Olá!%20Proteja%20sua%20base%20e%20monitore%20o%20embarque%20de%20turistas%20com%20segurança%20eletrônica%20de%20ponta.%20A%20JDS%20tem%20a%20solução%20para%20frotas%20e%20sedes." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Campostour Receptivo</strong><span>(81) 98153-3921</span></div><a href="https://wa.me/5581981533921?text=Olá!%20Garantimos%20a%20segurança%20da%20sua%20agência%20e%20clientes%20com%20CCTV%20e%20sensores%20inteligentes.%20Podemos%20agendar%20um%20projeto?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Naldo Buggy</strong><span>(81) 99176-2169</span></div><a href="https://wa.me/5581991762169?text=Olá!%20Temos%20soluções%20rápidas%20de%20segurança%20para%20seus%20pontos%20de%20atendimento.%20Proteja%20seu%20espaço%20com%20a%20JDS.%20Podemos%20falar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Agência Porto Feliz</strong><span>(81) 99685-2737</span></div><a href="https://wa.me/5581996852737?text=Olá!%20Sua%20agência%20mais%20segura%20com%20monitoramento%20em%20tempo%20real%20no%20celular.%20Evite%20incidentes%20e%20monitore%20sua%20equipe.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Agência Maravilhas</strong><span>(81) 99234-5678</span></div><a href="https://wa.me/5581992345678?text=Olá!%20Oferecemos%20segurança%20preventiva%20para%20agências%20de%20turismo.%20Proteja%20seus%20equipamentos%20e%20sede.%20Gostaria%20de%20conhecer?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Receptivo Praia Dourada</strong><span>(81) 98765-4321</span></div><a href="https://wa.me/5581987654321?text=Olá!%20Temos%20projetos%20de%20vídeo-monitoramento%20para%20operadoras%20que%20priorizam%20segurança.%20Vamos%20dar%20esse%20passo%20na%20Praia%20Dourada?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Agência Jangada Tours</strong><span>(81) 99456-7890</span></div><a href="https://wa.me/5581994567890?text=Olá!%20Garantimos%20a%20proteção%20da%20sua%20operação%20turística.%20Alarmes%20e%20câmeras%20com%20acesso%20remoto.%20Podemos%20fazer%20um%20orçamento?" class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <h2>🛒 Supermercados e Alimentação</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Soberano Supermercados</strong><span>(81) 99454-5090</span></div><a href="https://wa.me/5581994545090?text=Olá!%20Sistemas%20de%20IA%20para%20prevenção%20de%20perdas%20em%20tempo%20real.%20Otimize%20sua%20vigilância%20e%20reduza%20furtos.%20Podemos%20apresentar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Arco-Mix (Suporte)</strong><span>(81) 8107-5273</span></div><a href="https://wa.me/558181075273?text=Olá!%20Oferecemos%20manutenção%20preventiva%20e%20corretiva%20em%20redes%20de%20câmeras.%20Garantimos%20seu%20sistema%20rodando%20100%.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Cozinha de Maracaípe</strong><span>(81) 99866-0092</span></div><a href="https://wa.me/5581998660092?text=Olá!%20Proteja%20sua%20operação%20gastronômica.%20Monitoramento%20de%20estoque%20e%20áreas%20comuns.%20Segurança%20para%20você%20e%20seus%20colaboradores." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Toppharma Porto</strong><span>(81) 3552-1395</span></div><a href="https://wa.me/558135521395?text=Olá!%20Sistemas%20de%20segurança%20para%20farmácias%2C%20com%20alarmes%20e%20monitoramento%20do%20fluxo%20de%20clientes.%20Garantimos%20sua%20proteção." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Restaurante Beijupirá</strong><span>(81) 3552-2354</span></div><a href="https://wa.me/558135522354?text=Olá!%20Oferecemos%20soluções%20em%20segurança%20que%20preservam%20o%20requinte%20do%20seu%20ambiente.%20Proteção%20discreta%20e%20muito%20eficiente.%20Podemos%20falar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Restaurante Peixe na Telha</strong><span>(81) 99567-8901</span></div><a href="https://wa.me/5581995678901?text=Olá!%20Garanta%20a%20segurança%20do%20seu%20restaurante%20à%20beira-mar.%20Equipamentos%20premium%20resistentes%20à%20maresia.%20Gostaria%20de%20conhecer?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Supermercado Arco-Íris</strong><span>(81) 99234-1111</span></div><a href="https://wa.me/5581992341111?text=Olá!%20Implementamos%20sistemas%20de%20CFTV%20focados%20em%20gestão%20de%20loja%20e%20prevenção%20de%20furtos.%20Aumente%20sua%20lucratividade%20com%20a%20JDS!" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Padaria Pão Quente</strong><span>(81) 99345-2222</span></div><a href="https://wa.me/5581993452222?text=Olá!%20Segurança%20total%20para%20seu%20estabelecimento.%20Câmeras%20noturnas%20e%20alarmes%20conectados%20direto%20com%20você.%20Podemos%20fazer%20um%20orçamento?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Lanchonete Sabor</strong><span>(81) 99456-3333</span></div><a href="https://wa.me/5581994563333?text=Olá!%20Proteja%20seu%20negócio%20com%20o%20monitoramento%20da%20JDS.%20Câmeras%20com%20áudio%20e%20vídeo%20em%20alta%20resolução.%20Tem%20interesse?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Açougue Carne Fresca</strong><span>(81) 99567-4444</span></div><a href="https://wa.me/5581995674444?text=Olá!%20Segurança%20para%20seu%20açougue%20e%20estoque.%20Evite%20perdas%20e%20mantenha%20o%20controle%20total.%20Podemos%20apresentar%20nossas%20soluções?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Gelado Perfeito</strong><span>(81) 99678-5555</span></div><a href="https://wa.me/5581996785555?text=Olá!%20Deixe%20sua%20sorveteria%20mais%20segura%20com%20as%20câmeras%20inteligentes%20da%20JDS.%20Custo-benefício%20imbatível.%20Vamos%20falar?" class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <h2>🏢 Condomínios e Edifícios</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Condomínio Praia Vista</strong><span>(81) 99789-1111</span></div><a href="https://wa.me/5581997891111?text=Olá!%20Temos%20soluções%20de%20portaria%20remota%20e%20monitoramento%20perimetral%20que%20reduzem%20o%20condomínio%20em%20até%2040%.%20Podemos%20apresentar%20ao%20síndico?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Oasis Residencial</strong><span>(81) 99890-2222</span></div><a href="https://wa.me/5581998902222?text=Olá!%20Oferecemos%20segurança%20VIP%20para%20condomínios%20de%20luxo.%20Controle%20facial%20e%20rondas%20virtuais%2024h.%20Gostaria%20de%20um%20projeto%20exclusivo?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Condomínio Beira Mar</strong><span>(81) 99901-3333</span></div><a href="https://wa.me/5581999013333?text=Olá!%20Segurança%20máxima%20para%20seu%20condomínio%20com%20cercas%20virtuais%20e%20vídeo-análise.%20Aumente%20a%20valorização%20do%20seu%20imóvel%20com%20a%20JDS." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Edifício Porto Seguro</strong><span>(81) 99012-4444</span></div><a href="https://wa.me/5581990124444?text=Olá!%20Somos%20da%20JDS%20Segurança.%20Especialistas%20em%20revitalização%20de%20sistemas%20de%20segurança%20em%20edifícios.%20Gostaria%20de%20um%20diagnóstico%20gratuito?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Condomínio Jardim Tropical</strong><span>(81) 99123-5555</span></div><a href="https://wa.me/5581991235555?text=Olá!%20Segurança%20integrada%20para%20toda%20a%20família.%20Portaria%20digital%20e%20CCTV%20de%20alta%20resolução.%20Vamos%20proteger%20o%20Jardim%20Tropical?" class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <h2>🚗 Serviços Automotivos</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Oficina Mecânica Ipojuca</strong><span>(81) 99234-6666</span></div><a href="https://wa.me/5581992346666?text=Olá!%20Garanta%20a%20segurança%20dos%20carros%20em%20serviço%20com%20monitoramento%20full-time.%20Aumente%20a%20confiança%20do%20seu%20cliente%20com%20a%20JDS." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Borracharia Pneu Seguro</strong><span>(81) 99345-7777</span></div><a href="https://wa.me/5581993457777?text=Olá!%20Proteja%20sua%20loja%20e%20ferramentas%20com%20nosso%20sistema%20de%20alarmes%20inteligentes.%20Segurança%20que%20cabe%20no%20seu%20bolso." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Lava Rápido Porto</strong><span>(81) 99456-8888</span></div><a href="https://wa.me/5581994568888?text=Olá!%20Câmeras%20que%20ajudam%20na%20gestão%20e%20segurança%20do%20seu%20negócio.%20Veja%20tudo%20pelo%20seu%20smartphone%20onde%20estiver." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Estacionamento Seguro</strong><span>(81) 99567-9999</span></div><a href="https://wa.me/5581995679999?text=Olá!%20LPR%20(leitura%20de%20placas)%20e%20monitoramento%20completo.%20Garantimos%20a%20total%20segurança%20do%20seu%20estacionamento.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <h2>🏥 Saúde, Educação e Construção</h2>
+    <div class="grid">
+        <div class="card"><div class="info"><strong>Clínica Médica Porto</strong><span>(81) 99678-1111</span></div><a href="https://wa.me/5581996781111?text=Olá!%20A%20JDS%20oferece%20segurança%20eletrônica%20com%20foco%20em%20privacidade%20e%20controle%20de%20áreas%20restritas%20em%20clínicas.%20Gostaria%20de%20uma%20visita?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Consultório Odonto</strong><span>(81) 99789-2222</span></div><a href="https://wa.me/5581997892222?text=Olá!%20Proteja%20seus%20equipamentos%20e%20tenha%20mais%20tranquilidade%20no%20atendimento%20com%20o%20monitoramento%20da%20JDS.%20Conheça!" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Academia Fitness</strong><span>(81) 99890-3333</span></div><a href="https://wa.me/5581998903333?text=Olá!%20Controle%20de%20acesso%20biométrico%20e%20câmeras%20de%20segurança%20para%20sua%20academia.%20Mais%20organização%20e%20proteção." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Escola Pequenos Passos</strong><span>(81) 99012-5555</span></div><a href="https://wa.me/5581990125555?text=Olá!%20Segurança%20escolar%20é%20vital.%20Temos%20projetos%20especiais%20de%20controle%20de%20acesso%20e%20monitoramento%20de%20áreas%20comuns.%20Podemos%20ajudar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Colégio Porto</strong><span>(81) 99123-6666</span></div><a href="https://wa.me/5581991236666?text=Olá!%20Especialistas%20em%20segurança%20educacional.%20Proteja%20seus%20alunos%20e%20colaboradores%20com%20as%20soluções%20da%20JDS." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Construtora Ipojuca</strong><span>(81) 99345-8888</span></div><a href="https://wa.me/5581993458888?text=Olá!%20Segurança%20para%20canteiros%20de%20obras.%20Monitore%20seus%20materiais%20e%20máquinas%20remotamente.%20Evite%20prejuízos%20com%20a%20JDS." class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Imobiliária Porto</strong><span>(81) 99456-9999</span></div><a href="https://wa.me/5581994569999?text=Olá!%20Sistemas%20de%20segurança%20para%20seus%20plantões%20e%20sedes.%20Oferecemos%20credibilidade%20e%20proteção%20total.%20Vamos%20conversar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Spa e Massagem</strong><span>(81) 99901-4444</span></div><a href="https://wa.me/5581999014444?text=Olá!%20Segurança%20discreta%20para%20ambientes%20de%20relaxamento.%20CCTV%20de%20alta%20resolução%20para%20sua%20tranquilidade.%20Podemos%20apresentar?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Centro Treinamento</strong><span>(81) 99234-7777</span></div><a href="https://wa.me/5581992347777?text=Olá!%20Garante%20a%20proteção%20do%20seu%20centro%20de%20treinamento.%20Alarmes%20e%20vigilância%20técnica%2024h.%20Gostaria%20de%20conhecer?" class="btn-send">WhatsApp</a></div>
+        <div class="card"><div class="info"><strong>Corretora Litoral</strong><span>(81) 99567-1111</span></div><a href="https://wa.me/5581995671111?text=Olá!%20Segurança%20para%20imóveis%20de%20alto%20padrão.%20Sistemas%20completos%20para%20você%20apresentar%20mais%20valor%20aos%20seus%20clientes." class="btn-send">WhatsApp</a></div>
+    </div>
+
+    <footer>
+        <p>© 2026 JDS Sistemas de Segurança - Gerenciamento Total </p>
+    </footer>
+</div>
+
+</body>
+</html>
