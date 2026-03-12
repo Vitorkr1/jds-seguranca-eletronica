@@ -1,0 +1,54 @@
+{
+  "site": {
+    "name": "JDS Segurança Eletrônica",
+    "url": "https://newksitesfss.github.io/jds-seguranca-eletronica/",
+    "description": "Especialista em segurança eletrônica com câmeras CFTV, alarmes monitorados, cercas elétricas e controle de acesso em Recife e Pernambuco",
+    "keywords": [
+      "segurança eletrônica recife",
+      "câmeras de segurança",
+      "alarmes monitorados",
+      "cerca elétrica",
+      "CFTV recife",
+      "monitoramento 24h",
+      "segurança residencial",
+      "segurança comercial",
+      "controle de acesso",
+      "vigilância recife"
+    ],
+    "regions": [
+      "Recife",
+      "Ipojuca",
+      "Jaboatão dos Guararapes",
+      "Olinda",
+      "Pernambuco"
+    ]
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/jds-seguranca",
+    "instagram": "https://www.instagram.com/jds-seguranca",
+    "whatsapp": "+5581993862672"
+  },
+  "contact": {
+    "phone": "+5581993862672",
+    "email": "contato@jds-seguranca.com.br",
+    "address": "Recife, PE, Brasil"
+  },
+  "services": [
+    {
+      "name": "Câmeras de Segurança (CFTV)",
+      "description": "Instalação e manutenção de sistemas de câmeras IP e analógicas com acesso pelo celular"
+    },
+    {
+      "name": "Alarmes Monitorados",
+      "description": "Sistemas de intrusão inteligentes com sensores de movimento e sirenes de alta potência"
+    },
+    {
+      "name": "Controle de Acesso",
+      "description": "Interfonia, fechaduras eletrônicas e biometria para condomínios e empresas"
+    },
+    {
+      "name": "Cerca Elétrica e Concertina",
+      "description": "Proteção perimetral eficiente para evitar invasões em sua propriedade"
+    }
+  ]
+}

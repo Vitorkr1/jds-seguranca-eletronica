@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
+Disallow: /private/
+Disallow: /*.pdf$
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
 
 Sitemap: https://newksitesfss.github.io/jds-seguranca-eletronica/sitemap.xml

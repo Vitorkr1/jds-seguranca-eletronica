@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://newksitesfss.github.io/jds-seguranca-eletronica/</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://newksitesfss.github.io/jds-seguranca-eletronica/logo.jpg</image:loc>
+      <image:title>Logo JDS Segurança Eletrônica</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://newksitesfss.github.io/jds-seguranca-eletronica/WhatsApp Image 2026-01-28 at 17.20.57.jpeg</image:loc>
+      <image:title>Instalação de câmeras de segurança em Recife</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://newksitesfss.github.io/jds-seguranca-eletronica/toke.jpg</image:loc>
+      <image:title>Equipamentos de segurança eletrônica JDS</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://newksitesfss.github.io/jds-seguranca-eletronica/lo.png</image:loc>
+      <image:title>Sistema de monitoramento de alarmes em Ipojuca</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://newksitesfss.github.io/jds-seguranca-eletronica/lst.jpg</image:loc>
+      <image:title>Sistema de segurança residencial JDS</image:title>
+    </image:image>
   </url>
 </urlset>
