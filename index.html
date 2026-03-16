@@ -4,24 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO Básico -->
-  <title>JDS Segurança Eletrônica | Câmeras e Alarmes em Recife e todo pernambuco</title>
-  <meta name="description" content="JDS Segurança Eletrônica: Especialista em instalação de câmeras, alarmes monitorados, cercas elétricas e controle de acesso em Recife, Ipojuca e região. Proteção 24h para sua casa ou empresa.">
-  <meta name="keywords" content="segurança eletrônica recife, instalação de câmeras ipojuca, alarmes monitorados recife, cerca elétrica recife, monitoramento 24h, jds segurança">
-  <meta name="author" content="Cria Tech">
+  <!-- SEO Otimizado -->
+  <title>JDS Segurança Eletrônica | Câmeras, Alarmes e Monitoramento 24h em Recife</title>
+  <meta name="description" content="JDS Segurança Eletrônica: Especialista em instalação de câmeras CFTV, alarmes monitorados, cercas elétricas e controle de acesso em Recife, Ipojuca e Pernambuco. Proteção 24h para sua casa ou empresa. Solicite orçamento grátis!">
+  <meta name="keywords" content="segurança eletrônica recife, câmeras de segurança, alarmes monitorados, cerca elétrica, controle de acesso, monitoramento 24h, ipojuca, pernambuco">
+  <meta name="author" content="JDS Segurança Eletrônica">
+  <meta name="robots" content="index, follow">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://newksitesfss.github.io/jds-seguranca-eletronica/">
-  <meta property="og:title" content="JDS Segurança Eletrônica | Pernambuco, recife ipojuca">
-  <meta property="og:description" content="Proteção inteligente para sua residência ou comércio em Pernambuco. Câmeras, alarmes e monitoramento 24h.">
+  <meta property="og:title" content="JDS Segurança Eletrônica | Proteção Inteligente em Recife">
+  <meta property="og:description" content="Câmeras, alarmes e monitoramento 24h para sua residência ou comércio. Atendemos Recife, Ipojuca e região.">
   <meta property="og:image" content="logo.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://newksitesfss.github.io/jds-seguranca-eletronica/">
-  <meta property="twitter:title" content="JDS Segurança Eletrônica | Recife e Ipojuca">
-  <meta property="twitter:description" content="Proteção inteligente para sua residência ou comércio em Pernambuco. Câmeras, alarmes e monitoramento 24h.">
+  <meta property="twitter:title" content="JDS Segurança Eletrônica | Recife">
+  <meta property="twitter:description" content="Proteção inteligente para sua residência ou comércio. Câmeras, alarmes e monitoramento 24h.">
   <meta property="twitter:image" content="logo.jpg">
 
   <!-- Schema.org para SEO Local -->
@@ -47,108 +48,315 @@
       "latitude": -8.047562,
       "longitude": -34.877002
     },
-    "servesCrawl": ["Recife", "Ipojuca", "Jaboatão dos Guararapes", "Olinda"],
+    "areaServed": ["Recife", "Ipojuca", "Jaboatão dos Guararapes", "Olinda", "Pernambuco"],
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       "opens": "08:00",
       "closes": "18:00"
     }
   }
   </script>
 
-  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="logo.jpg">
 </head>
 
 <body>
-
-  <!-- VÍDEO DE FUNDO (TOPO) -->
-  <video class="bg-video" autoplay muted loop playsinline>
-    <source src="seguranca-eletronica-recife.mp4" type="video/mp4">
-  </video>
-
+  <!-- HEADER / NAVEGAÇÃO -->
   <header class="header">
-    <div class="nav-left">
-      <img src="logo.jpg" class="logo" alt="Logo JDS Segurança Eletrônica">
+    <div class="container-header">
+      <div class="logo-container">
+        <img src="logo.jpg" class="logo" alt="Logo JDS Segurança Eletrônica">
+        <span class="brand-name">JDS Segurança</span>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="navMenu">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#diferenciais">Por que nos escolher</a>
+        <a href="https://wa.me/5581993862672" class="btn-whatsapp" target="_blank" rel="noopener">Contato</a>
+      </nav>
     </div>
-
-    <div class="nav-center">
-      <span class="brand-name">JDS Segurança</span>
-    </div>
-
-    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
-
-    <nav class="nav" id="navMenu">
-      <a href="#produtos">Serviços</a>
-      <a href="#galeria">Galeria</a>
-      <a href="https://wa.me/5581993862672" target="_blank" rel="noopener">Contato</a>
-    </nav>
   </header>
 
-  <!-- HERO (SOBRE O VÍDEO) -->
+  <!-- HERO SECTION -->
   <section class="hero">
-    <h1>Segurança Eletrônica Para Sua Residencia</h1>
-    <p>Proteção inteligente e monitoramento 24h para sua casa ou empresa em Pernambuco.</p>
-    <a href="https://wa.me/5581993862672" class="btn-cta" target="_blank" rel="noopener">
-      Solicitar Orçamento Grátis
-    </a>
-  </section>
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="seguranca-eletronica-recife.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+      <h1 class="hero-title">Proteção Inteligente Para Sua Família</h1>
+      <p class="hero-subtitle">Câmeras, alarmes e monitoramento 24h com tecnologia de ponta</p>
+      
+      <div class="hero-cta">
+        <a href="https://wa.me/5581993862672" class="btn-primary" target="_blank" rel="noopener">
+          Solicitar Orçamento Grátis
+        </a>
+        <a href="#servicos" class="btn-secondary">Conhecer Serviços</a>
+      </div>
 
-  <!-- PRODUTOS / SERVIÇOS -->
-  <section id="produtos" class="servicos">
-    <h2>Nossos Serviços de Segurança</h2>
-    <p style="text-align: center; margin-bottom: 20px;">Soluções completas em tecnologia de vigilância para Recife e região metropolitana.</p>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Câmeras de Segurança (CFTV)</h3>
-        <p>Instalação e manutenção de sistemas de câmeras IP e analógicas com acesso pelo celular.</p>
-      </div>
-      <div class="card">
-        <h3>Alarmes Monitorados</h3>
-        <p>Sistemas de intrusão inteligentes com sensores de movimento e sirenes de alta potência.</p>
-      </div>
-      <div class="card">
-        <h3>Controle de Acesso</h3>
-        <p>Interfonia, fechaduras eletrônicas e biometria para condomínios e empresas.</p>
-      </div>
-      <div class="card">
-        <h3>Cerca Elétrica e Concertina</h3>
-        <p>Proteção perimetral eficiente para evitar invasões em sua propriedade.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Clientes Satisfeitos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Monitoramento Ativo</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Anos de Experiência</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- GALERIA -->
-  <section id="galeria" class="galeria">
-    <h2>Projetos Realizados </h2>
+  <!-- SOBRE SEÇÃO -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <div class="sobre-content">
+        <div class="sobre-text">
+          <h2>Sobre a JDS Segurança Eletrônica</h2>
+          <p>Somos especialistas em soluções de segurança eletrônica com mais de 15 anos de experiência no mercado de Pernambuco. Nossa missão é proteger o que é mais importante para você: sua família, sua casa e seu negócio.</p>
+          
+          <p>Com uma equipe técnica altamente qualificada e certificada, oferecemos as melhores soluções em tecnologia de vigilância e proteção, sempre com atendimento personalizado e suporte 24 horas.</p>
 
-    <div class="galeria-grid">
-      <img src="WhatsApp Image 2026-01-28 at 17.20.57.jpeg" alt="Instalação de câmeras de segurança em Recife">
-      <img src="toke.jpg" alt="Equipamentos de segurança eletrônica JDS">
-      <img src="lo.png" alt="Monitoramento de alarmes em Ipojuca">
-      <img src="lst.jpg" alt="Sistema de segurança residencial JDS">
+          <div class="sobre-features">
+            <div class="feature-item">
+              <span class="feature-icon">✓</span>
+              <span>Instalação profissional e rápida</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">✓</span>
+              <span>Equipamentos de alta qualidade</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">✓</span>
+              <span>Suporte técnico 24/7</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">✓</span>
+              <span>Garantia estendida</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS SECTION -->
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <h2 class="section-title">Nossos Serviços</h2>
+      <p class="section-subtitle">Soluções completas em segurança eletrônica para residências e empresas</p>
+
+      <div class="servicos-grid">
+        <div class="servico-card">
+          <div class="servico-icon">📹</div>
+          <h3>Câmeras de Segurança (CFTV)</h3>
+          <p>Sistemas de câmeras IP e analógicas com resolução 4K, visão noturna e acesso remoto pelo celular. Monitoramento em tempo real da sua propriedade.</p>
+          <ul class="servico-features">
+            <li>Câmeras IP 4K e Full HD</li>
+            <li>Gravação contínua ou por movimento</li>
+            <li>Acesso remoto via app</li>
+            <li>Armazenamento em nuvem</li>
+          </ul>
+        </div>
+
+        <div class="servico-card">
+          <div class="servico-icon">🚨</div>
+          <h3>Alarmes Monitorados</h3>
+          <p>Sistemas inteligentes de intrusão com sensores de movimento, contato de porta/janela e sirenes de alta potência. Monitoramento profissional 24/7.</p>
+          <ul class="servico-features">
+            <li>Sensores de movimento PIR</li>
+            <li>Contatos magnéticos</li>
+            <li>Sirenes de alta potência</li>
+            <li>Notificações em tempo real</li>
+          </ul>
+        </div>
+
+        <div class="servico-card">
+          <div class="servico-icon">🔐</div>
+          <h3>Controle de Acesso</h3>
+          <p>Interfonia, fechaduras eletrônicas, biometria e sistemas de controle de acesso para condomínios, empresas e residências. Segurança e praticidade.</p>
+          <ul class="servico-features">
+            <li>Interfonia com vídeo</li>
+            <li>Fechaduras eletrônicas</li>
+            <li>Biometria facial</li>
+            <li>Controle remoto</li>
+          </ul>
+        </div>
+
+        <div class="servico-card">
+          <div class="servico-icon">⚡</div>
+          <h3>Cerca Elétrica e Concertina</h3>
+          <p>Proteção perimetral eficiente e segura para evitar invasões. Sistemas de alta tensão com avisos de segurança e fácil manutenção.</p>
+          <ul class="servico-features">
+            <li>Cerca elétrica de alta tensão</li>
+            <li>Fita concertina</li>
+            <li>Isoladores de qualidade</li>
+            <li>Manutenção preventiva</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA SECTION -->
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <h2 class="section-title">Projetos Realizados</h2>
+      <p class="section-subtitle">Veja alguns dos nossos trabalhos em instalações de segurança</p>
+
+      <div class="galeria-grid">
+        <div class="galeria-item">
+          <img src="assets/instalacao-1.jpg" alt="Instalação de câmera de segurança em Recife">
+          <div class="galeria-overlay">
+            <span>Instalação Profissional</span>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="assets/instalacao-2.jpg" alt="Técnico instalando sistema de segurança">
+          <div class="galeria-overlay">
+            <span>Expertise Técnica</span>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="assets/instalacao-3.jpg" alt="Manutenção de cerca elétrica">
+          <div class="galeria-overlay">
+            <span>Proteção Perimetral</span>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="WhatsApp Image 2026-01-28 at 17.20.57.jpeg" alt="Equipamentos de segurança JDS">
+          <div class="galeria-overlay">
+            <span>Equipamentos Premium</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS SECTION -->
+  <section id="diferenciais" class="diferenciais">
+    <div class="container">
+      <h2 class="section-title">Por Que Nos Escolher?</h2>
+
+      <div class="diferenciais-grid">
+        <div class="diferencial-card">
+          <div class="diferencial-number">01</div>
+          <h3>Experiência Comprovada</h3>
+          <p>Mais de 15 anos atendendo Recife, Ipojuca e região com excelência e profissionalismo.</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-number">02</div>
+          <h3>Tecnologia de Ponta</h3>
+          <p>Equipamentos de marcas renomadas com garantia estendida e suporte técnico especializado.</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-number">03</div>
+          <h3>Atendimento Personalizado</h3>
+          <p>Cada cliente recebe uma solução customizada conforme suas necessidades específicas.</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-number">04</div>
+          <h3>Suporte 24/7</h3>
+          <p>Equipe técnica disponível a qualquer hora para manutenção e suporte emergencial.</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-number">05</div>
+          <h3>Preços Competitivos</h3>
+          <p>Orçamentos transparentes e sem custos ocultos. Parcelamento disponível.</p>
+        </div>
+
+        <div class="diferencial-card">
+          <div class="diferencial-number">06</div>
+          <h3>Garantia Total</h3>
+          <p>Garantia de satisfação com nossos serviços e equipamentos de qualidade certificada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-final">
+    <div class="container">
+      <h2>Pronto Para Proteger Sua Propriedade?</h2>
+      <p>Entre em contato conosco agora e receba um orçamento personalizado e totalmente grátis!</p>
+      
+      <div class="cta-buttons">
+        <a href="https://wa.me/5581993862672" class="btn-primary-large" target="_blank" rel="noopener">
+          Falar no WhatsApp
+        </a>
+        <a href="tel:+5581993862672" class="btn-secondary-large">
+          Ligar Agora
+        </a>
+      </div>
+
+      <p class="cta-info">📍 Atendemos: Recife, Ipojuca, Jaboatão dos Guararapes, Olinda e região</p>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>© 2026 JDS Segurança Eletrônica - Atendendo Recife, Ipojuca e Região.</p>
-    <p>Desenvolvido por <a href="#" style="color: #fff; text-decoration: underline;">Cria Tech</a></p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>JDS Segurança Eletrônica</h4>
+          <p>Sua segurança é nossa prioridade. Proteção inteligente 24 horas por dia.</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contato Rápido</h4>
+          <p>📱 <a href="https://wa.me/5581993862672" target="_blank" rel="noopener">(81) 99386-2672</a></p>
+          <p>📧 <a href="mailto:contato@jdsseguranca.com">contato@jdsseguranca.com</a></p>
+          <p>📍 Recife - PE</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Horário de Atendimento</h4>
+          <p>Segunda a Sexta: 08:00 - 18:00</p>
+          <p>Sábado: 09:00 - 14:00</p>
+          <p>Emergências: 24/7</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Redes Sociais</h4>
+          <div class="social-links">
+            <a href="https://wa.me/5581993862672" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="#" target="_blank" rel="noopener">Instagram</a>
+            <a href="#" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 JDS Segurança Eletrônica. Todos os direitos reservados.</p>
+        <p>Desenvolvido com ❤️ para sua segurança</p>
+      </div>
+    </div>
   </footer>
 
-  <!-- WHATSAPP FIXO -->
-  <a href="https://wa.me/5581993862672" class="whatsapp" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-    <img src="pngwing.com.png" alt="Ícone do WhatsApp">
+  <!-- WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5581993862672" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <img src="pngwing.com.png" alt="WhatsApp">
   </a>
 
+  <script src="script.js"></script>
 </body>
 </html>
