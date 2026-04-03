@@ -1006,30 +1006,33 @@ a {
 /* Badge do Suporte IA */
 .badge-support {
   position: absolute;
-  top: -8px;
-  right: -8px;
+  top: -10px;
+  right: -10px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bold;
-  padding: 4px 8px;
-  border-radius: 12px;
+  padding: 5px 10px;
+  border-radius: 14px;
   white-space: nowrap;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.6);
   animation: badge-pulse 2s infinite;
+  z-index: 999;
+  border: 2px solid white;
 }
 
 @keyframes badge-pulse {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.6);
   }
   50% {
-    transform: scale(1.1);
-    box-shadow: 0 2px 12px rgba(102, 126, 234, 0.8);
+    transform: scale(1.15);
+    box-shadow: 0 2px 12px rgba(102, 126, 234, 1);
   }
 }
 
 .support-ia {
   position: relative;
+  z-index: 999;
 }
