@@ -640,32 +640,45 @@ a {
 }
 
 /* ===========================
-   WHATSAPP FLUTUANTE
+   BOTOES FLUTUANTES
    =========================== */
 
-.whatsapp-float {
+.floating-buttons {
   position: fixed;
   bottom: 15px;
   right: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 998;
+}
+
+.float-btn {
   width: 50px;
   height: 50px;
-  background: #25d366;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
-  z-index: 998;
-  animation: pulse 2s infinite;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  position: relative;
 }
 
-.whatsapp-float img {
+.float-btn img {
   width: 28px;
   height: 28px;
 }
 
-.whatsapp-float:active {
+.float-btn:active {
   transform: scale(0.95);
+}
+
+/* WhatsApp - Verde */
+.whatsapp-float {
+  background: #25d366;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
@@ -674,6 +687,22 @@ a {
   }
   50% {
     box-shadow: 0 4px 20px rgba(37, 211, 102, 0.8);
+  }
+}
+
+/* Suporte IA - Roxo com Gradiente */
+.support-ia {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  animation: pulse-ia 2s infinite;
+}
+
+@keyframes pulse-ia {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.8);
   }
 }
 
@@ -900,14 +929,18 @@ a {
     font-size: 14px;
   }
 
-  .whatsapp-float {
+  .floating-buttons {
     bottom: 25px;
     right: 25px;
+    gap: 12px;
+  }
+
+  .float-btn {
     width: 55px;
     height: 55px;
   }
 
-  .whatsapp-float img {
+  .float-btn img {
     width: 32px;
   }
 }
@@ -953,14 +986,18 @@ a {
     font-size: 36px;
   }
 
-  .whatsapp-float {
+  .floating-buttons {
     bottom: 30px;
     right: 30px;
+    gap: 15px;
+  }
+
+  .float-btn {
     width: 60px;
     height: 60px;
   }
 
-  .whatsapp-float img {
+  .float-btn img {
     width: 35px;
   }
 }
